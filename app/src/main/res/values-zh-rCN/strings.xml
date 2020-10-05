@@ -1,0 +1,120 @@
+<!--
+  ~ Ichaival - Android client for LANraragi https://github.com/Utazukin/Ichaival/
+  ~ Copyright (C) 2020 Utazukin
+  ~
+  ~  This program is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 3 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">Ichaival</string>
+    <string name="archive_thumb">缩略图</string>
+    <string name="archive_label">名称</string>
+
+    <string name="title_activity_reader">阅读活动</string>
+    <string name="random">随机</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">通用</string>
+
+
+
+    <string name="server_address_preference">server_address</string>
+    <string name="server_location_name">服务器地址</string>
+    <string name="clear_cache">清理缓存…</string>
+
+    <string name="load_previews">加载更多预览图</string>
+    <string name="bookmark">添加书签</string>
+    <string name="unbookmark">取消书签</string>
+    <string name="archive_details">详细</string>
+    <string name="archive_gallery">缩略图</string>
+    <string name="read_button">阅读</string>
+    <string name="tag_header">标签</string>
+    <string name="bookmark_label">书签</string>
+    <string name="detail_menu_item">详细</string>
+    <string name="api_key_pref">api_key</string>
+    <string name="api_key_pref_name">API密钥</string>
+    <string name="details_title">详细</string>
+    <string name="thumbs_title">预览图</string>
+    <string name="license_key">许可</string>
+    <string name="gpl_key">gpl</string>
+    <string name="git_key">github</string>
+    <string name="thumbnail_setting">清理预览图缓存</string>
+    <string name="thumbnail_pref">clear_thumbs</string>
+    <string name="thumbnail_summary">点击以删除预览图缓存</string>
+    <string name="press_for_tags">长按查看标签</string>
+    <string name="first_time_text">长按设置服务器。</string>
+    <string name="new_checkbox">新的</string>
+    <plurals name="archive_count">
+        <item quantity="one">%d archive</item>
+        <item quantity="other">%d 个档案</item>
+    </plurals>
+    <string name="failed_image">加载失败</string>
+    <string name="verbose_pref">verbose_key</string>
+    <string name="verbose_pref_name">详细信息</string>
+    <string name="verbose_pref_summary">显示更多详细的错误消息</string>
+    <string name="sort_method">排序方式</string>
+    <string name="alpha_sort">名称</string>
+    <string name="sort_date">添加日期</string>
+    <string name="save_button">保存</string>
+    <string name="sort_menu">排序</string>
+    <string name="sort_pref">sort_pref</string>
+    <string name="sort_asc">上升</string>
+    <string name="sort_desc">下降</string>
+    <string name="sort_direction">顺序</string>
+    <string name="desc_pref">desc_pref</string>
+    <string name="tag_menu">标签</string>
+    <string name="goto_page">跳转到页面</string>
+    <string name="refresh_menu_item">强制刷新</string>
+    <string name="rtol_pref_key">right to left pref</string>
+    <string name="rtol_pref_name">从右到左阅读</string>
+    <string name="reader_pref_header">阅读</string>
+    <string name="source_pref_header">源码</string>
+    <string name="vol_key_pref_name">音量键翻页</string>
+    <string name="vol_key_pref_key">vol_key_pref</string>
+    <string name="random_archive">查看随机档案</string>
+    <string name="search_header">搜索</string>
+    <string name="local_search_key">local_search_key</string>
+    <string name="local_search_pref">本地搜索</string>
+    <string name="local_search_sum">使用内置应用程序搜索进行搜索，而不是向服务器发出请求。</string>
+    <string name="search_delay_key">search_delay_key</string>
+    <string name="search_delay_pref">搜索延迟</string>
+    <string name="search_delay_summary">在发出搜索请求之前，两次按键之间要等待的时间（以毫秒为单位）。 （预设750毫秒）</string>
+    <string name="refresh_archive_menu">刷新档案</string>
+    <string name="swipe_refresh_key">swipe_refresh_key</string>
+    <string name="swipe_refresh_pref">启用滑动刷新</string>
+    <string name="search_page_key">search_page</string>
+    <string name="search_page_key_title">服务器搜索分页</string>
+    <string name="search_page_desc">一次从服务器获取的项目数。 应该与服务器首选项相匹配以获得最佳性能。 （预设值：100）</string>
+    <string name="scale_type_menu">页面缩放</string>
+    <string-array name="scale_types">
+        <item>适应页面</item>
+        <item>适应高度</item>
+        <item>适应宽度</item>
+    </string-array>
+    <string name="fullscreen_timeout_key">fullscreen_timeout_key</string>
+    <string name="fullscreen_timeout_title">屏幕超时</string>
+    <string name="fullscreen_timeout_summary">屏幕超时时间，以秒计算，-1为永远亮屏</string>
+    <string name="search_header_key">search_header_key</string>
+    <string name="category_label">分类</string>
+    <string name="clear_category_button">清除分类</string>
+    <string name="filter_label">筛选</string>
+    <string name="temp_folder_pref">temp_folder_pref</string>
+    <string name="temp_folder_pref_summary">清理服务器临时文件夹</string>
+    <string name="temp_folder_pref_title">清理临时文件夹</string>
+    <string name="server_pref_header">服务器</string>
+    <string name="mark_read_item">标记已读</string>
+    <string name="server_header_key">server_header_key</string>
+    <string name="refresh_thumb_menu_item">刷新缩略图</string>
+</resources>
